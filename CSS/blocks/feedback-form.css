@@ -1,0 +1,99 @@
+.feedback__container {
+  padding: 60px 0 96px;
+}
+
+.feedback__title {
+  font-weight: bold;
+  font-size: 48px;
+  color: #1A1B1E;
+  margin-bottom: 57px;
+}
+
+.feedback__form {
+  display: flex;
+}
+
+.feedback__input {
+  flex: 1;
+  margin-right: 30px;
+  padding: 24px 30px;
+  font-size: 18px;
+  color: #1A1B1E;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 23px;
+}
+
+.feedback__input::placeholder {
+  color: #666;
+}
+
+.feedback__input:last-child {
+  margin-right: 0;
+}
+
+.feedback__input:focus {
+  border: 1px solid #8f0f8f;
+  outline: 0;
+}
+
+.feedback__input--area {
+  height: 232px;
+}
+
+.feedback__tags {
+  display: flex;
+  margin-bottom: 23px;
+}
+
+.tags__title {
+  width: 38.5%;
+  font-size: 18px;
+  color: #1A1B1E;
+  margin-top: 10px;
+}
+
+.tags__list {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap
+}
+
+.tags__item {
+  margin-right: 7px;
+  margin-bottom: 9px;
+}
+
+.tag__item {
+  padding: 10px 15px;
+}
+
+.tags__item:last-child {
+  margin-right: 0;
+}
+
+.tags__label {
+  cursor: pointer;
+}
+
+.tags__checkbox:checked ~ .tags__text {
+  background: #B9EAE4;
+}
+
+.tags__checkbox {
+  display: none
+}
+
+.feedback__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.feedback__btn {
+  margin-right: 17px;
+  padding: 18px 41px;
+}
+
+.feedback__btn:last-child {
+  margin-right: 0;
+}

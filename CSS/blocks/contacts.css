@@ -11,8 +11,11 @@
   line-height: 32px;
 }
 
-.contacts__info {
+.contacts__title {
   font-size: 13px;
   text-decoration: underline;
   padding-right: 4px;
+  display: inline-block;
+  cursor: pointer;
+  margin-bottom: 2px;
 }

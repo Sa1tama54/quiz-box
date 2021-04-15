@@ -1,0 +1,26 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 412px;
+  padding-bottom: 21px;
+  background: url('../../assets/background/bg__services.png') center top no-repeat;
+  background-blend-mode: luminosity;
+  background-color: #17191C;
+}
+
+.page__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.page__title {
+  font-weight: bold;
+  font-size: 72px;
+  margin-bottom: 34px;
+}
+
+.page__content--reviews {
+  padding-bottom: 65px;
+}

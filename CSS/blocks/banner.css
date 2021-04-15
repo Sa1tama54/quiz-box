@@ -1,0 +1,16 @@
+.banner {
+  background: #17191C url('../../assets/reviews/banner.png') right no-repeat;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner__content {
+  max-width: 42%;
+}
+
+.banner__title {
+  font-size: 48px;
+  font-weight: bold;
+}

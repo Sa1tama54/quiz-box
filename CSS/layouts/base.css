@@ -44,6 +44,12 @@ img {
   max-width: 100%;
 }
 
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -62,3 +68,10 @@ img {
   margin: 0 auto;
   width: 1140px;
 }
+
+.page__content {
+  background: #fff;
+  padding-top: 98px;
+  padding-bottom: 84px;
+}
+

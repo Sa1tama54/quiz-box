@@ -6,6 +6,7 @@
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  transition: .3s ease;
 }
 
 .btn:hover {
@@ -36,4 +37,13 @@
 .btn--color--gradient {
   border: 1px solid #fff;
   padding: 13px 39px;
+}
+
+.btn--color--grey {
+  background: #8E8E8E;
+  color: #fff;
+}
+
+.btn--color--grey:hover {
+  background: #2B2B2B;
 }

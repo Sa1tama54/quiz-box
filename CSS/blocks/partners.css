@@ -12,17 +12,16 @@
   color: #1A1B1E;
   font-weight: bold;
   margin-bottom: 68px;
-  letter-spacing: 2px;
 }
 
 .partners__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .partners__item {
   margin-bottom: 40px;
-  margin-left: 61px;
   min-width: 235px;
   min-height: 85px;
   display: flex;
@@ -41,7 +40,8 @@
 
 .partners__link {
   text-decoration: none;
-  filter: grayscale(100%)
+  filter: grayscale(100%);
+  transition: .3s ease
 }
 
 .partners__link:hover {
