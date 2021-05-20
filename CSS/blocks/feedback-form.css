@@ -33,7 +33,8 @@
 }
 
 .feedback__input:focus {
-  border-color: #8f0f8f;
+  border: 1px solid #8f0f8f;
+  outline: 0;
 }
 
 .feedback__input--area {
